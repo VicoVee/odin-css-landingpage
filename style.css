@@ -87,23 +87,72 @@ nav ul a {
     flex-direction: column;
     text-align: center;
     padding: 2rem;
+    width: 80%;
 }
 
 .two .card-set {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
 .two .card {
     width: 30%;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .two .img {
     background-color: transparent;
     border: 4px solid blue;
     border-radius: 1rem;
+}
+
+.three {
+    background-color: gray;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.three div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+}
+
+.three div #quote {
+    justify-self: center;
+    align-self: center;
+}
+.three div #speaker {
+    align-self: end;
+}
+
+.four {
+    margin: 5rem;
+    background-color: blue;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.four .button {
+    border: 4px solid white;
+}
+
+.four .button:hover {
+    background-color: lightblue;
 }
 
 footer {

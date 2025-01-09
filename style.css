@@ -1,6 +1,10 @@
 html, body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img {
@@ -20,13 +24,13 @@ html, body {
 }
 
 .one .content {
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5rem;
     gap: 8px;
+    width: 80%;
 }
 
 .button {
@@ -75,11 +79,12 @@ nav ul a {
     text-wrap: nowrap;
 }
 
+nav ul a:hover{
+    color: lightblue;
+}
+
 .zero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
 }
 
 .two {
@@ -87,7 +92,7 @@ nav ul a {
     flex-direction: column;
     text-align: center;
     padding: 2rem;
-    width: 80%;
+    ;
 }
 
 .two .card-set {
@@ -124,7 +129,6 @@ nav ul a {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    width: 80%;
 }
 
 .three div #quote {
@@ -139,7 +143,7 @@ nav ul a {
     margin: 5rem;
     background-color: blue;
     padding: 2rem;
-    width: 80%;
+    ;
     border-radius: 2rem;
     color: white;
     display: flex;
